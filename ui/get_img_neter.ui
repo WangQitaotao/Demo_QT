@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>971</width>
+    <height>528</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>爬取Neter图片</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_4">
+   <item>
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="title">
+      <string>爬取参数</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QLabel" name="label_3">
+          <property name="text">
+           <string>爬取网址</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="editURL">
+          <property name="text">
+           <string>https://ss.netnr.com/wallpaper</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QLabel" name="label_4">
+          <property name="text">
+           <string>爬取数量</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="editNumber">
+          <property name="text">
+           <string>100</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <item>
+         <widget class="QLabel" name="label_6">
+          <property name="text">
+           <string>爬取类型</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="editType">
+          <item>
+           <property name="text">
+            <string>最新壁纸</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>4K专区</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>美女模特</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>爱情美图</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>风景大片</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>小清新</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>动漫卡通</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>明星风尚</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>萌宠动物</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>游戏壁纸</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>汽车天下</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>炫酷时尚</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>军事天地</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>劲爆体育</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>纹理</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>文字控</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>月历壁纸</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>影视剧照</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>节日美图</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>BABY秀</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <item>
+         <widget class="QLabel" name="label_5">
+          <property name="text">
+           <string>存放路径</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="editPath"/>
+        </item>
+        <item>
+         <widget class="QPushButton" name="buttonPreview">
+          <property name="text">
+           <string>浏览</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_6">
+        <item>
+         <widget class="QPushButton" name="buttonStart">
+          <property name="text">
+           <string>开始爬取</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string>图片展示</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>缩略图</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTextBrowser" name="browserIMG"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QLabel" name="label_2">
+          <property name="text">
+           <string>日志信息</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTextBrowser" name="browserLog"/>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
